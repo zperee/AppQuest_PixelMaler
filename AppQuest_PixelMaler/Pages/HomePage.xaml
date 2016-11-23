@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:res="clr-namespace:AppQuest_PixelMaler.Resource;assembly=AppQuest_PixelMaler"
+             x:Class="AppQuest_PixelMaler.Pages.HomePage">
+  <StackLayout Orientation="Horizontal">
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="10"/>
+        <RowDefinition Height="10"/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="10" />
+        <ColumnDefinition Width="10" />
+      </Grid.ColumnDefinitions>
+      <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="{x:Static res:Colors.black}"/>
+      <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="{x:Static res:Colors.gray}"/>
+      <BoxView Grid.Row="0" Grid.Column="2" BackgroundColor="{x:Static res:Colors.red}"/>
+      <BoxView Grid.Row="0" Grid.Column="3" BackgroundColor="{x:Static res:Colors.green}"/>
+    </Grid>
+    <StackLayout Orientation="Vertical" HorizontalOptions="EndAndExpand">
+      <Button BackgroundColor="{x:Static res:Colors.blue}" Height="50" Width="50"/>      
+      <Button BackgroundColor="{x:Static res:Colors.green}" Height="50" Width="50"/>      
+      <Button BackgroundColor="{x:Static res:Colors.yellow}" Height="50" Width="50"/>      
+      <Button BackgroundColor="{x:Static res:Colors.red}" Height="50" Width="50"/>      
+      <Button BackgroundColor="{x:Static res:Colors.black}" Height="50" Width="50"/>      
+      <Button BackgroundColor="{x:Static res:Colors.gray}" Height="50" Width="50"/>      
+      <Button BackgroundColor="{x:Static res:Colors.white}" Height="50" Width="50"/>      
+    </StackLayout>
+  </StackLayout>
+</ContentPage>

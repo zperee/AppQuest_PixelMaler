@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using AppQuest_PixelMaler.Pages;
+using Xamarin.Forms;
 
 namespace AppQuest_PixelMaler
 {
@@ -8,7 +9,7 @@ namespace AppQuest_PixelMaler
 		{
 			InitializeComponent();
 
-			MainPage = new AppQuest_PixelMalerPage();
+			MainPage = new HomePage();
 		}
 
 		protected override void OnStart()
