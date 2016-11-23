@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using AppQuest_PixelMaler.ViewModel;
 using Xamarin.Forms;
 
 namespace AppQuest_PixelMaler.Pages
 {
     public partial class HomePage : ContentPage
     {
+        private HomePageViewModel _viewModel;
         public HomePage()
         {
             InitializeComponent();
+            _viewModel = new HomePageViewModel();
         }
 
 		protected override void OnAppearing()
@@ -29,9 +31,16 @@ namespace AppQuest_PixelMaler.Pages
 
 		void GestureRecognizer_Tapped(object sender, EventArgs e)
 		{
-			// sender = boxview
 			var boxview = (BoxView)sender;
-			//boxview.BackgroundColor;
+			_viewModel.ChangePixelColor(boxview);
 		}
-	}
+
+        private void Button_OnClicked(object sender, EventArgs e)
+        {
+            var button = (Button) sender;
+            button.BorderColor = Color.Aqua;
+            var color = button.BackgroundColor;
+            _viewModel.ChangeColor(color);
+        }
+    }
 }
