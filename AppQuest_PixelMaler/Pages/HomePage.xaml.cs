@@ -14,5 +14,24 @@ namespace AppQuest_PixelMaler.Pages
         {
             InitializeComponent();
         }
-    }
+
+		protected override void OnAppearing()
+		{
+			base.OnAppearing();
+			foreach (var child in Grid.Children)
+			{
+				var GestureRecognizer = new TapGestureRecognizer();
+				GestureRecognizer.Tapped += GestureRecognizer_Tapped;
+				child.GestureRecognizers.Add(GestureRecognizer);
+			}
+				
+		}
+
+		void GestureRecognizer_Tapped(object sender, EventArgs e)
+		{
+			// sender = boxview
+			var boxview = (BoxView)sender;
+			//boxview.BackgroundColor;
+		}
+	}
 }
