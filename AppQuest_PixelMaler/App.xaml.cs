@@ -5,6 +5,8 @@ namespace AppQuest_PixelMaler
 {
 	public partial class App : Application
 	{
+
+		public static int ScreenWidth = 0;
 		public App()
 		{
 			InitializeComponent();

@@ -26,7 +26,17 @@ namespace AppQuest_PixelMaler.Pages
 				GestureRecognizer.Tapped += GestureRecognizer_Tapped;
 				child.GestureRecognizers.Add(GestureRecognizer);
 			}
-				
+			var width = App.ScreenWidth / 13.0 - 6;
+
+			foreach (var column in Grid.ColumnDefinitions)
+			{
+				column.Width = new GridLength(width);
+			}
+
+			foreach (var row in Grid.RowDefinitions)
+			{
+				row.Height = new GridLength(width);
+			}
 		}
 
 		void GestureRecognizer_Tapped(object sender, EventArgs e)

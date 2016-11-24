@@ -4,11 +4,10 @@ namespace AppQuest_PixelMaler.ViewModel
 {
     public class HomePageViewModel
     {
-        private Color _color;
+		private Color _color;
 
         public void ChangePixelColor(BoxView boxView)
-        {
-            _color = boxView.BackgroundColor;
+		{
             boxView.BackgroundColor = _color;
         }
 
