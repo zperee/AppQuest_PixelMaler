@@ -1,221 +1,221 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:res="clr-namespace:AppQuest_PixelMaler.Resource;assembly=AppQuest_PixelMaler"
-             x:Class="AppQuest_PixelMaler.Pages.HomePage">
-  <StackLayout Orientation="Vertical" BackgroundColor="Gray">
-    <Grid x:Name="Grid">
-      <Grid.RowDefinitions>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-      </Grid.RowDefinitions>
-      <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="*" />
-        <ColumnDefinition Width="*" />
-        <ColumnDefinition Width="*" />
-        <ColumnDefinition Width="*" />
-        <ColumnDefinition Width="*" />
-        <ColumnDefinition Width="*" />
-        <ColumnDefinition Width="*" />
-        <ColumnDefinition Width="*" />
-        <ColumnDefinition Width="*" />
-        <ColumnDefinition Width="*" />
-        <ColumnDefinition Width="*" />
-        <ColumnDefinition Width="*" />
-        <ColumnDefinition Width="*" />
-      </Grid.ColumnDefinitions>
-     <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="0" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="0" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="0" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="0" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="0" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="0" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="0" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="0" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="0" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="0" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="0" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="1" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="2" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="3" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="4" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="5" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="6" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="7" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="8" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="9" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="10" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="11" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}"/>
-<BoxView Grid.Row="12" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}"/>
-			
-    </Grid>
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:res="clr-namespace:AppQuest_PixelMaler.Resource;assembly=AppQuest_PixelMaler" x:Class="AppQuest_PixelMaler.Pages.HomePage">
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Text="Clear" Icon="clear.png" Clicked="OnClear_Clicked" />
+		<ToolbarItem Text="Send to Server" Icon="send.png" Clicked="OnSendServer_Clicked" />
+	</ContentPage.ToolbarItems>
+	<StackLayout Orientation="Vertical" BackgroundColor="Gray" Padding="15" Spacing="20">
+		<Grid x:Name="Grid">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="*" />
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+				<ColumnDefinition Width="*" />
+			</Grid.ColumnDefinitions>
+			<BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="0" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="0" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="0" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="0" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="0" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="0" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="0" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="0" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="0" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="0" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="0" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="1" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="2" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="3" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="4" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="5" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="6" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="7" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="8" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="9" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="10" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="11" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="0" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="1" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="2" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="3" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="4" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="5" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="6" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="7" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="8" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="9" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="10" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
+			<BoxView Grid.Row="12" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
+		</Grid>
 		<ScrollView Orientation="Horizontal">
-    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-      <Button BackgroundColor="{x:Static res:Colors.blue}" BorderWidth="5" BorderRadius="1" BorderColor="Red" Clicked="Button_OnClicked"/>      
-      <Button BackgroundColor="{x:Static res:Colors.green}" Clicked="Button_OnClicked"/>      
-      <Button BackgroundColor="{x:Static res:Colors.yellow}" Clicked="Button_OnClicked"/>      
-      <Button BackgroundColor="{x:Static res:Colors.red}" Clicked="Button_OnClicked"/>      
-      <Button BackgroundColor="{x:Static res:Colors.black}" Clicked="Button_OnClicked"/>      
-      <Button BackgroundColor="{x:Static res:Colors.gray}" Clicked="Button_OnClicked"/>      
-      <Button BackgroundColor="{x:Static res:Colors.white}" Clicked="Button_OnClicked"/>      
-    </StackLayout>
-			</ScrollView>
-  </StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Button BackgroundColor="{x:Static res:Colors.blue}" BorderWidth="5" BorderRadius="1" BorderColor="Red" Clicked="Button_OnClicked" />
+				<Button BackgroundColor="{x:Static res:Colors.green}" Clicked="Button_OnClicked" />
+				<Button BackgroundColor="{x:Static res:Colors.yellow}" Clicked="Button_OnClicked" />
+				<Button BackgroundColor="{x:Static res:Colors.red}" Clicked="Button_OnClicked" />
+				<Button BackgroundColor="{x:Static res:Colors.black}" Clicked="Button_OnClicked" />
+				<Button BackgroundColor="{x:Static res:Colors.gray}" Clicked="Button_OnClicked" />
+				<Button BackgroundColor="{x:Static res:Colors.white}" Clicked="Button_OnClicked" />
+			</StackLayout>
+		</ScrollView>
+	</StackLayout>
 </ContentPage>
