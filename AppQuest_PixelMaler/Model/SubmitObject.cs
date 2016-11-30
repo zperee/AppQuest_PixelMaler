@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace AppQuest_PixelMaler.Model
 {
-    public class Pixel
+    public class SubmitObject
     {
 		[JsonProperty("y")]
 		public string YAttribute { get; set; }

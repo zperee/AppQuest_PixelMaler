@@ -2,10 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:res="clr-namespace:AppQuest_PixelMaler.Resource;assembly=AppQuest_PixelMaler" x:Class="AppQuest_PixelMaler.Pages.HomePage">
 	<ContentPage.ToolbarItems>
 		<ToolbarItem Text="Clear" Icon="clear.png" Clicked="OnClear_Clicked" />
+		<ToolbarItem Text="Default BackgroundColor" Icon="background.png" Clicked="OnBackground_Clicked" />
 		<ToolbarItem Text="Send to Server" Icon="send.png" Clicked="OnSendServer_Clicked" />
 	</ContentPage.ToolbarItems>
 	<StackLayout Orientation="Vertical" BackgroundColor="Gray" Padding="15" Spacing="20">
-		<Grid x:Name="Grid">
+		  <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+		<Grid x:Name="Grid" RowSpacing="2" ColumnSpacing="2" >
 			<Grid.RowDefinitions>
 				<RowDefinition Height="*" />
 				<RowDefinition Height="*" />
@@ -206,6 +208,7 @@
 			<BoxView Grid.Row="12" Grid.Column="11" BackgroundColor="{x:Static res:Colors.white}" />
 			<BoxView Grid.Row="12" Grid.Column="12" BackgroundColor="{x:Static res:Colors.white}" />
 		</Grid>
+			</AbsoluteLayout>
 		<ScrollView Orientation="Horizontal">
 			<StackLayout Orientation="Horizontal">
 				<Button BackgroundColor="{x:Static res:Colors.blue}" BorderWidth="5" BorderRadius="1" BorderColor="Red" Clicked="Button_OnClicked" />

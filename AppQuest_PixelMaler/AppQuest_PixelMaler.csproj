@@ -38,8 +38,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\Pixel.cs" />
-    <Compile Include="Model\PixelGrid.cs" />
+    <Compile Include="Model\SubmitObject.cs" />
     <Compile Include="Pages\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
@@ -49,7 +48,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Colors.resx</DependentUpon>
     </Compile>
-    <Compile Include="ViewModel\HomePageViewModel.cs" />
     <Compile Include="Services\ILogBuchService.cs" />
   </ItemGroup>
   <ItemGroup>
