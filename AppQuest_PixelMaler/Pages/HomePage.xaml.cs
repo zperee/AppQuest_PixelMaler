@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using AppQuest_PixelMaler.ViewModel;
 using Xamarin.Forms;
+using Newtonsoft.Json;
+using AppQuest_PixelMaler.Model;
 
 namespace AppQuest_PixelMaler.Pages
 {
@@ -26,7 +28,7 @@ namespace AppQuest_PixelMaler.Pages
 				GestureRecognizer.Tapped += GestureRecognizer_Tapped;
 				child.GestureRecognizers.Add(GestureRecognizer);
 			}
-			var width = App.ScreenWidth / 13.0 - 8;
+			/*var width = App.ScreenWidth / 13.0 - 8;
 
 			foreach (var column in Grid.ColumnDefinitions)
 			{
@@ -36,7 +38,7 @@ namespace AppQuest_PixelMaler.Pages
 			foreach (var row in Grid.RowDefinitions)
 			{
 				row.Height = new GridLength(width);
-			}
+			}*/
 		}
 
 		void GestureRecognizer_Tapped(object sender, EventArgs e)
@@ -64,7 +66,29 @@ namespace AppQuest_PixelMaler.Pages
 
 		void OnSendServer_Clicked(object sender, System.EventArgs e)
 		{
-			throw new NotImplementedException();
+			var list = new List<Pixel>();
+			foreach (var cell in Grid.Children)
+			{
+				int red = (int)(cell.BackgroundColor.R * 255);
+				int green = (int)(cell.BackgroundColor.G * 255);
+				int blue = (int)(cell.BackgroundColor.B * 255);
+				int alpha = (int)(cell.BackgroundColor.A * 255);
+				/*int x = (int)((cell.X == 0) ? 0 : cell.X / cell.X);
+				int y = (int)((cell.Y == 0) ? 0 : cell.Y / cell.Y);*/
+
+				var pixel = new Pixel
+				{
+					XAttribute = "1",
+					YAttribute = "1",
+					Color = String.Format("#{0:X2}{1:X2}{2:X2}{3:X2}", red, green, blue, alpha)
+				};
+				list.Add(pixel);
+			}
+
+			string result = JsonConvert.SerializeObject(list);
+			var logBuch = DependencyService.Get<ILogBuchService>();
+
+			logBuch.OpenLogBuch("Pixelmaler", result);
 		}
 	}
 }
