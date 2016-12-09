@@ -4,10 +4,10 @@
 		<ToolbarItem Text="Clear" Icon="clear.png" Clicked="OnClear_Clicked" />
 		<ToolbarItem Text="Default BackgroundColor" Icon="background.png" Clicked="OnBackground_Clicked" />
 		<ToolbarItem Text="Send to Server" Icon="send.png" Clicked="OnSendServer_Clicked" />
-	</ContentPage.ToolbarItems>
+	</ContentPage.ToolbarItems> 
 	<StackLayout Orientation="Vertical" BackgroundColor="Gray" Padding="15" Spacing="20">
 		  <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-		<Grid x:Name="Grid" RowSpacing="2" ColumnSpacing="2" >
+		<Grid x:Name="grid" RowSpacing="2" ColumnSpacing="2" >
 			<Grid.RowDefinitions>
 				<RowDefinition Height="*" />
 				<RowDefinition Height="*" />

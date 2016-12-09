@@ -21,7 +21,7 @@ namespace AppQuest_PixelMaler.Pages
 		protected override void OnAppearing()
 		{
 			base.OnAppearing();
-			foreach (var child in Grid.Children)
+			foreach (var child in grid.Children)
 			{
 				var GestureRecognizer = new TapGestureRecognizer();
 				GestureRecognizer.Tapped += GestureRecognizer_Tapped;
@@ -29,12 +29,12 @@ namespace AppQuest_PixelMaler.Pages
 			}
 			var width = App.ScreenWidth / 13.0 - 4;
 
-			foreach (var column in Grid.ColumnDefinitions)
+			foreach (var column in grid.ColumnDefinitions)
 			{
 				column.Width = new GridLength(width);
 			}
 
-			foreach (var row in Grid.RowDefinitions)
+			foreach (var row in grid.RowDefinitions)
 			{
 				row.Height = new GridLength(width);
 			}
@@ -54,7 +54,7 @@ namespace AppQuest_PixelMaler.Pages
 
 		void OnClear_Clicked(object sender, System.EventArgs e)
 		{
-			foreach (var cell in Grid.Children)
+			foreach (var cell in grid.Children)
 			{
 				var boxView = (BoxView)cell;
 				boxView.BackgroundColor = Color.White;
@@ -63,7 +63,7 @@ namespace AppQuest_PixelMaler.Pages
 
 		void OnBackground_Clicked(object sender, System.EventArgs e)
 		{
-			foreach (var cell in Grid.Children)
+			foreach (var cell in grid.Children)
 			{
 				var boxView = (BoxView)cell;
 				boxView.BackgroundColor = _color;
@@ -73,21 +73,21 @@ namespace AppQuest_PixelMaler.Pages
 		void OnSendServer_Clicked(object sender, System.EventArgs e)
 		{
 			var list = new List<SubmitObject>();
-			foreach (var cell in Grid.Children)
+			foreach (var cell in grid.Children.Where(cell => cell.BackgroundColor != Color.White))
 			{
 				int red = (int)(cell.BackgroundColor.R * 255);
 				int green = (int)(cell.BackgroundColor.G * 255);
 				int blue = (int)(cell.BackgroundColor.B * 255);
 				int alpha = (int)(cell.BackgroundColor.A * 255);
-				//TODO cell nummer
-				/*int x = (int)((cell.X == 0) ? 0 : cell.X / cell.X);
-				int y = (int)((cell.Y == 0) ? 0 : cell.Y / cell.Y);*/
+
+			    int x = Grid.GetColumn(cell);
+			    int y = Grid.GetRow(cell);
 
 				var pixel = new SubmitObject
 				{
-					XAttribute = "1",
-					YAttribute = "1",
-					Color = String.Format("#{0:X2}{1:X2}{2:X2}{3:X2}", red, green, blue, alpha)
+					XAttribute = x.ToString(),
+					YAttribute = y.ToString(),
+					Color = string.Format("#{0:X2}{1:X2}{2:X2}{3:X2}", red, green, blue, alpha)
 				};
 				list.Add(pixel);
 			}
